@@ -1,0 +1,173 @@
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+}
+
+.col-lg-6, .col-lg-4 {
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 9% 11.5%;
+}
+
+/* TOP PART */
+/* TITLE PART */
+#top-part {
+  padding-bottom: 4.4%;
+}
+
+.top-title {
+  font-size: 3rem;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  line-height: 1;
+  padding-bottom: 5px;
+  letter-spacing: -2px;
+}
+
+.top-subtitle {
+  color: hsl(303, 10%, 53%);
+  font-weight: 500;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.title-box {
+  padding-right: 11%;
+}
+
+/* RATING PART */
+.rate-box {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 8px;
+  padding: 3% 6%;
+  width: 28rem;
+  margin: 15px auto;
+}
+
+.first-rate-box {
+  position: relative;
+  right: 8%;
+}
+
+.third-rate-box {
+  position: relative;
+  left: 8%;
+}
+
+.five-stars {
+  display: inline-block;
+  margin-right: 8%;
+  margin: auto 20%;
+}
+
+.rate-source {
+  display: inline-block;
+  color: hsl(300, 43%, 22%);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* OPINION PART */
+.opinion-box {
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 6px;
+  padding: 9%;
+  margin: 2% auto;
+}
+
+.irene-box {
+  position: relative;
+  top: 7%;
+}
+
+.anne-box {
+  position: relative;
+  top: 14%;
+}
+
+.profile-opinion {
+  margin: 4% auto 7%;
+}
+
+.profile-image {
+  border-radius: 100%;
+  width: 42px;
+  float: left;
+  margin-right: 21px;
+}
+
+.name {
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.verified-buyer {
+  color: hsl(333, 80%, 67%);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.opinion-text {
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 13px;
+  margin: 0;
+}
+
+/* FOOTER */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* MEDIA QUERY */
+@media (max-width: 991px) {
+  .container-fluid {
+    padding: 22% 11%;
+  }
+
+  #top-part {
+    text-align: center;
+  }
+
+  .title-box {
+    padding: 0;
+  }
+
+  .top-title {
+    font-size: 33px;
+    position: static;
+    margin-bottom: 4%;
+  }
+
+  /* RATING PART */
+  .rate-box {
+    padding: 4% 6%;
+    width: auto;
+    margin: 15px auto;
+    position: static;
+  }
+
+  .five-stars {
+    display: block;
+    margin-bottom: 4%;
+  }
+
+  .rate-source {
+    display: inline-block;
+    color: hsl(300, 43%, 22%);
+    font-size: 13px;
+    font-weight: 700;
+  }
+}
